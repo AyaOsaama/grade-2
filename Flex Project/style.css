@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    background-color: #eee;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+
+}
+.parent{
+    /* height: 600px; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: start;
+    gap: 30px;
+    width: 100%; 
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.child{
+    background-color: white;
+    box-shadow:  5px 5px 5px 5px #88888821;;
+    border-radius: 8px;
+    padding: 10px;
+    width: 30%;
+
+}
+.child img{
+    width: 100%;
+    margin: auto;
+    height: 200px;
+    border-radius: 10px;
+}
+.btn{
+    border-radius: 20px;
+    background-color: #282828;
+    color: white;
+    width: 30%;
+    margin-top: 5px;
+}
+.bottom{
+    color: rgb(93, 93, 244);
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 15px;
+}
+.bottomp{
+    font-weight: 900px;
+}
+.box {
+  display: flex;
+  align-items: baseline; /* جربي غيريها لـ flex-start وشوفي الفرق */
+  background: #eee;
+  padding: 20px;
+}
+
+.big {
+  font-size: 50px;
+  background: lightblue;
+}
+
+.small {
+  font-size: 18px;
+  background: lightgreen;
+}
